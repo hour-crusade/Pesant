@@ -1,11 +1,11 @@
 # Pesant
-For the glory of The Jesus!
+For the glory of Jesus!
 <html>
   <head>
   
   </head>
   <body>
-    For the glory of <b> The Jesus </b> ! <br>
+    For the glory of <b> Jesus </b> ! <br>
     The "Red" shall fall beneath our feet
   </body>
 </html>
