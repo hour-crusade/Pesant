@@ -1,5 +1,15 @@
 .HeadLine {
   color: tomato;
   front-weight: bold;
-  front-size: 25;
+  front-size: 25pt;
+}
+.Sub {
+  color: black;
+  front-style: normal;
+  front-size: 14pt;
+}
+.SubLine {
+  color: eggplant;
+  front-style: normal;
+  front-size: 25pt;
 }
