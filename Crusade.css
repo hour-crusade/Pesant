@@ -16,7 +16,7 @@
   padding: 15px 20px;
   color: red;
 }
-.menu hover{
+.menu a: hover{
   background-color: lightgray;
   color: blue;
 }
