@@ -1,0 +1,58 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+}
+.header{
+  flex: 15%;
+  background-color: lightgray;
+  background: url("images/ChatGPT Image 09_36_31 3 thg 3, 2026.png") center / 100%;
+  aspect-ratio: 6 / 1;
+}
+.menu{
+  flex: 50%;
+  background-color: darkgray;
+  display: flex;
+}
+.menu a{
+  padding: 15px 20px;
+  color: red;
+}
+.menu a: hover{
+  background-color: lightgray;
+  color: blue;
+}
+.content{
+  flex: 70%;
+  background-color: white;
+}
+.content iframe{
+  flex:1;
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+.footer{
+  flex:10%;
+  background-color: lightgray;
+}
+.HeadLine {
+  color: red;
+  front-weight: bold;
+  front-size: 25pt;
+}
+.Sub {
+  color: black;
+  front-style: normal;
+  front-size: 14pt;
+}
+.SubLine {
+  color: purple;
+  front-style: normal;
+  front-size: 25pt;
+}
+.border {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+}
