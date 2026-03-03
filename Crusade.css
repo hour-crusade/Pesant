@@ -51,3 +51,8 @@
   front-style: normal;
   front-size: 25pt;
 }
+.border {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+}
