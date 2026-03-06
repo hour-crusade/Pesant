@@ -56,3 +56,9 @@
   flex-direction: column;
   height: 100px;
 }
+header {
+  background: #1c1c1c;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid gold;
+}
