@@ -3,6 +3,10 @@
   background: url("images/banner.png");
   aspect-ratio: 6 / 1;
 }
+.header h1 {
+  font-size: 28px;
+  letter-spacing: 2px;
+}
 .nav {
   flex: 50%;
   background-color: darkgray;
