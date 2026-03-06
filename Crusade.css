@@ -1,4 +1,4 @@
-
+7
 /* Reset */
 * {
   margin: 0;
@@ -61,11 +61,8 @@ nav a:hover {
 }
 
 footer {
-  background: #000;
-  text-align: center;
-  padding: 15px;
-  border-top: 1px solid gold;
-  margin-top: 50px;
+  flex:10%;
+  background-color: gold;
 }
 
 .container{
