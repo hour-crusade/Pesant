@@ -15,8 +15,7 @@ body {
 
 /* Header */
 .header{
-  flex: 15%;
-  background-color: lightgray;
+  flex: 25%;
   background: url("images/ChatGPT Image 09_36_31 3 thg 3, 2026.png") center / 100%;
   aspect-ratio: 6 / 1;
 }
@@ -27,7 +26,7 @@ header h1 {
 }
 
 nav {
-  flex: 5%;
+  flex: 50%;
   background-color: darkgray;
   padding: 15px;
 }
@@ -69,20 +68,6 @@ footer {
   display: flex;
   flex-direction: column;
   height: 100px;
-}
-
-.menu{
-  flex: 50%;
-  background-color: darkgray;
-  display: flex;
-}
-.menu a{
-  padding: 15px 20px;
-  color: red;
-}
-.menu a: hover{
-  background-color: lightgray;
-  color: blue;
 }
 .content{
   flex: 70%;
