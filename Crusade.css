@@ -5,19 +5,19 @@
   background: url("images/banner.png");
   aspect-ratio: 6 / 1;
 }
-nav {
+.nav {
   flex: 50%;
   background-color: darkgray;
   padding: 15px;
 }
 
-nav a {
+.nav a {
   color: white;
   text-decoration: none;
   padding: 15px 20px ;
 }
 
-nav a:hover {
+.nav a:hover {
   background-color: gold;
   color: red;
   text-decoration: none;
@@ -39,7 +39,7 @@ nav a:hover {
   opacity: 0.8;
 }
 
-footer {
+.footer {
   flex:10%;
   background-color: gold;
 }
