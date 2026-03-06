@@ -33,13 +33,13 @@ nav {
 nav a {
   color: white;
   text-decoration: none;
-  font-weight: bold;
-  transition: 0.3s;
+  padding: 15px 20px ;
 }
 
 nav a:hover {
   background-color: gold;
-  transform: scale(1.1);
+  color: red;
+  text-decoration: none;
 }
 
 /* Hero Section */
