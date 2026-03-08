@@ -1,7 +1,7 @@
 .header{
-  flex: 15%;
+  flex: 25%;
   background: url("images/banner.png");
-  aspect-ratio: 6 / 1;
+  aspect-ratio: 6 / 2;
 }
 .header h1 {
   font-size: 28px;
@@ -41,7 +41,7 @@
 }
 
 .footer {
-  flex:10%;
+  flex:20%;
   background-color: gold;
 }
 
