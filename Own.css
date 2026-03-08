@@ -1,0 +1,36 @@
+body{
+  background:#111;
+  color:white;
+  font-family:Arial;
+  padding:40px;
+}
+
+h1{
+  text-align:center;
+  color:gold;
+  margin-bottom:40px;
+  letter-spacing:2px;
+}
+
+ol{
+  font-size:20px;
+  line-height:1.8;
+}
+
+ul{
+  margin-top:8px;
+  margin-bottom:15px;
+}
+
+li{
+  margin:5px 0;
+}
+
+.section{
+  color:tomato;
+  font-weight:bold;
+}
+
+.sub{
+  color:#ddd;
+}
