@@ -1,5 +1,5 @@
 .header{
-  flex: 25%;
+  flex: 15%;
   background: url("images/banner.png");
   aspect-ratio: 6 / 1;
 }
