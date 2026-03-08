@@ -1,7 +1,7 @@
 .header{
   flex: 25%;
   background: url("images/banner.png");
-  aspect-ratio: 6 / 2;
+  aspect-ratio: 6 / 1;
 }
 .header h1 {
   font-size: 28px;
