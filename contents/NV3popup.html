@@ -1,9 +1,17 @@
 <html>
   <head>
-    Thank You For Your Comments
+    <meta charset ="utf-8">
   </head>
   <body>
-    We Will Take Your Comments As Noted, We Will Try To Improve More In The Near Future <br>
+    <p id="kq"> </p>
+    <script>
+      let pp = new URLSearchParams(window.location.search);
+      let ten = pp.get("ten");
+      let dc = pp.get("diachi");
+      let yk = pp.get("comment");
+      document.getElementById("kq").innerHTML = "Thank You" + ten + "email:" + dc + "Your comment <br>" + yk;
+    </script>
+    We Will Take It As Noted, We Will Try To Improve More In The Near Future <br>
     Sincerly, Masculine Christianity's Dev.
   </body>
 </html>
