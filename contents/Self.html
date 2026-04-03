@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Library Feedback</title>
+
+<style>
+  body {
+    font-family: Arial;
+    background: #0b0b0b;
+    color: white;
+    text-align: center;
+  }
+
+  .box {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #111;
+    border: 2px solid #d4af37;
+    border-radius: 10px;
+  }
+
+  h1 { color: #d4af37; }
+
+  input, textarea {
+    width: 100%;
+    margin-top: 5px;
+    padding: 6px;
+    background: #222;
+    color: white;
+    border: none;
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background: #d4af37;
+    border: none;
+    font-weight: bold;
+  }
+</style>
+</head>
+
+<body>
+
+<div class="box">
+  <h1>✝ Library Feedback</h1>
+
+  <form action="NV3popup.html">
+
+    <label>Name:
+      <input type="text" name="txtName" required>
+    </label>
+
+    <label>Email:
+      <input type="email" name="email" required>
+    </label>
+
+    <label>Comments:
+      <textarea name="txtComment" rows="5" required></textarea>
+    </label>
+
+    <button type="submit">Send</button>
+
+  </form>
+</div>
+
+</body>
+</html>
