@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Thank You</title>
+
+<style>
+  body {
+    background: black;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    padding-top: 100px;
+  }
+
+  .box {
+    display: inline-block;
+    padding: 20px;
+    border: 2px solid #d4af37;
+    border-radius: 10px;
+    background: #111;
+  }
+
+  h2 { color: #d4af37; }
+
+  button {
+    margin-top: 15px;
+    padding: 8px 15px;
+    background: #d4af37;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+</style>
+</head>
+
+<body>
+
+<div class="box">
+  <h2>✝ Thank You</h2>
+  <p id="kq"></p>
+
+  <button onclick="goBack()">⬅ Back</button>
+</div>
+
+<script>
+  let pp = new URLSearchParams(window.location.search);
+
+  let ten = pp.get("txtName");
+  let dc = pp.get("email");
+  let yk = pp.get("txtComment");
+
+  document.getElementById("kq").innerHTML =
+    "Thank you <b>" + ten + "</b><br>" +
+    "Email: " + dc + "<br>" +
+    "Your comment:<br>" + yk;
+
+  function goBack() {
+    history.back();
+  }
+</script>
+
+</body>
+</html>
