@@ -1,0 +1,123 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Christian Brotherhood Physics Competition</title><style>
+  body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(to bottom, #0b0b0b, #1a1a1a);
+    color: #f5f5f5;
+    text-align: center;
+  }
+
+  .container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 25px;
+    background: #111;
+    border: 2px solid #d4af37;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(212,175,55,0.3);
+  }
+
+  h1 {
+    color: #d4af37;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  p {
+    font-style: italic;
+    color: #ccc;
+  }
+
+  label {
+    display: block;
+    margin-top: 15px;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    background: #222;
+    color: white;
+  }
+
+  .options {
+    text-align: left;
+    margin-top: 10px;
+  }
+
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 8px;
+  }
+
+  .submit-btn {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    background: #d4af37;
+    border: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .submit-btn:hover {
+    background: #b8962e;
+  }
+
+  .cross {
+    font-size: 40px;
+    color: #d4af37;
+  }
+</style></head><body><div class="container">
+  <div class="cross">✝</div>
+  <h1>Physics Competition</h1>
+  <p>"Be strong and courageous" – Joshua 1:9</p>  <!-- FORM -->  <form onsubmit="return openPopup();"><label>
+  Full Name:
+  <input type="text" name="name" required>
+</label>
+
+<label>
+  Email:
+  <input type="email" name="email" required>
+</label>
+
+<div class="options">
+  <label>Class:</label>
+  <input type="radio" name="class" value="10" required> Class 10<br>
+  <input type="radio" name="class" value="11"> Class 11<br>
+  <input type="radio" name="class" value="12"> Class 12
+</div>
+
+<div class="options">
+  <label>Sports (Strength & Discipline):</label>
+  <input type="checkbox" name="sport" value="volleyball"> Volleyball<br>
+  <input type="checkbox" name="sport" value="basketball"> Basketball<br>
+  <input type="checkbox" name="sport" value="badminton"> Badminton<br>
+  <input type="checkbox" name="sport" value="chess"> Chess
+</div>
+
+<input class="submit-btn" type="submit" value="Join the Brotherhood">
+
+  </form>
+</div><!-- SCRIPT --><script>
+function openPopup() {
+  window.open(
+    "popup.html",
+    "popupWindow",
+    "width=500,height=400,top=200,left=400"
+  );
+  return false;
+}
+</script></body>
+</html>
