@@ -1,0 +1,102 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Introduction</title><style>
+  body {
+    background-color: #0a0a0a;
+    color: #e6d8a8;
+    font-family: "Times New Roman", serif;
+    margin: 0;
+  }
+
+  h1 {
+    color: gold;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 20px;
+  }
+
+  h2 {
+    color: #d4af37;
+    margin-bottom: 5px;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  td {
+    padding: 20px;
+    vertical-align: top;
+  }
+
+  img {
+    border: 3px solid gold;
+    border-radius: 10px;
+  }
+
+  a {
+    color: gold;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .box {
+    border: 1px solid gold;
+    padding: 20px;
+    border-radius: 12px;
+    background: rgba(255, 215, 0, 0.05);
+  }
+</style></head><body><h1>✝ INTRODUCTION ✝</h1><table>
+  <tr>
+    <td width="30%" style="text-align: center;">
+      <img src="download.jpg" width="240" height="270" alt="Profile">
+    </td><td>
+  <div class="box">
+    <h2>Good day, 12A17!</h2>
+
+    <p><b>I am Hour</b></p>
+    <p><b>Title:</b> The Great Crusader</p>
+
+    <h2>⚔ Calling</h2>
+    <p>To stand in truth, walk in the light, and reject falsehood.</p>
+
+    <h2>🛡 Strength</h2>
+    <p>Faith, discipline, and unwavering conviction.</p>
+
+    <h2>🔥 Mission</h2>
+    <p>To guide my brothers and sisters toward truth and righteousness.</p>
+
+    <h2>👑 Vision</h2>
+    <p>The fall of deception and the triumph of divine truth.</p>
+  </div>
+</td>
+
+  </tr>  <tr>
+    <td colspan="2" style="text-align: center;">
+      <div class="box">
+        <h2>Favorite Singer</h2>    <p>
+      <a href="https://www.youtube.com/channel/UCln9P4Qm3-EAY4aiEPmRwEA" target="_blank">
+        Visit Channel
+      </a>
+    </p>
+
+    <h2>Recommended Song</h2>
+
+    <iframe width="700" height="400"
+      src="https://www.youtube.com/embed/YvYii6dluM8"
+      title="Vivarium"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </div>
+</td>
+
+  </tr>
+</table></body>
+</html>
