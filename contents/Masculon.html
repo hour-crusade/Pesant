@@ -79,45 +79,44 @@
     font-size: 40px;
     color: #d4af37;
   }
-</style></head><body><div class="container">
-  <div class="cross">✝</div>
-  <h1>Physics Competition</h1>
-  <p>"Be strong and courageous" – Joshua 1:9</p>  <!-- FORM -->  <form onsubmit="return openPopup();"><label>
-  Full Name:
-  <input type="text" name="name" required>
-</label>
-
-<label>
-  Email:
-  <input type="email" name="email" required>
-</label>
-
-<div class="options">
-  <label>Class:</label>
-  <input type="radio" name="class" value="10" required> Class 10<br>
-  <input type="radio" name="class" value="11"> Class 11<br>
-  <input type="radio" name="class" value="12"> Class 12
-</div>
-
-<div class="options">
-  <label>Sports (Strength & Discipline):</label>
-  <input type="checkbox" name="sport" value="volleyball"> Volleyball<br>
-  <input type="checkbox" name="sport" value="basketball"> Basketball<br>
-  <input type="checkbox" name="sport" value="badminton"> Badminton<br>
-  <input type="checkbox" name="sport" value="chess"> Chess
-</div>
-
-<input class="submit-btn" type="submit" value="Join the Brotherhood">
-
-  </form>
-</div><!-- SCRIPT --><script>
+</style>
+</head>
+  <body>
+    <script>
 function openPopup() {
   window.open(
     "popup.html",
     "popupWindow",
     "width=500,height=400,top=200,left=400"
   );
-  return false;
-}
-</script></body>
+  return false;}
+    </script>
+    <div class="container">
+      <div class="cross">✝</div>
+      <h1>Physics Competition</h1>
+      <p>"Be strong and courageous" – Joshua 1:9</p>  <!-- FORM -->  <form onsubmit="return openPopup();"><label>
+        Full Name:
+        <input type="text" name="name" required>
+      </label>
+        <label>
+          Email:
+          <input type="email" name="email" required>
+        </label>
+        <div class="options">
+          <label>Class:</label>
+          <input type="radio" name="class" value="10" required> Class 10<br>
+          <input type="radio" name="class" value="11"> Class 11<br>
+          <input type="radio" name="class" value="12"> Class 12
+        </div>
+        <div class="options">
+          <label>Sports (Strength & Discipline):</label>
+          <input type="checkbox" name="sport" value="volleyball"> Volleyball<br>
+          <input type="checkbox" name="sport" value="basketball"> Basketball<br>
+          <input type="checkbox" name="sport" value="badminton"> Badminton<br>
+          <input type="checkbox" name="sport" value="chess"> Chess
+        </div>
+        <input class="submit-btn" type="submit" value="Join the Brotherhood">
+      </form>
+    </div>
+  </body>
 </html>
