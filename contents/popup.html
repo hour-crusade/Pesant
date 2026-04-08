@@ -59,8 +59,14 @@
   <p>Your registration has been received.</p>
   <p>Stand firm in faith and knowledge.</p>
 
-  <button onclick="window.close()">Close</button>
+  <button onclick="go.back()">Close</button>
 </div>
+<script>
+let pp = new URLSearchParams(window.location.search);
 
+  function goBack() {
+    history.back();
+  }
+</script>
 </body>
 </html>
