@@ -82,19 +82,11 @@
 </style>
 </head>
   <body>
-    <script>
-function openPopup() {
-  window.open(
-    "popup.html",
-    "popupWindow",
-    "width=500,height=400,top=200,left=400"
-  );
-  return false;}
-    </script>
     <div class="container">
       <div class="cross">✝</div>
       <h1>Physics Competition</h1>
-      <p>"Be strong and courageous" – Joshua 1:9</p>  <!-- FORM -->  <form onsubmit="return openPopup();"><label>
+      <p>"Be strong and courageous" – Joshua 1:9</p> 
+      <form action="popup.html"><label>
         Full Name:
         <input type="text" name="name" required>
       </label>
@@ -115,7 +107,7 @@ function openPopup() {
           <input type="checkbox" name="sport" value="badminton"> Badminton<br>
           <input type="checkbox" name="sport" value="chess"> Chess
         </div>
-        <input class="submit-btn" type="submit" value="Join the Brotherhood">
+        <button class="submit-btn" type="submit" value="Join the Brotherhood"> </button>
       </form>
     </div>
   </body>
